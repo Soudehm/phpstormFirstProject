@@ -1,0 +1,143 @@
+body {
+    font-family: Helvetica;
+    padding: 2em;
+   /* background-color: whitesmoke;*/
+    background-image: url('http://bit.ly/2jTbWTO');
+    background-repeat: repeat;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    position:relative;
+    color:white;
+}
+
+a {
+    color: aqua;
+}
+
+.skillset {
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-html {
+    background-color: #E55126;
+
+}
+
+
+.skill-js {
+    background-color: #E5A227;
+}
+
+.skill-jquery {
+    background-color: #0C73B8;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery {
+    width: 25%;
+    padding: 1em 3em 2em 2em;
+    margin: 0.5em;
+    color: whitesmoke;
+    border-radius: 10%;
+}
+
+.projects-button {
+    padding: 0.75em 1.25em;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    width: 10em;
+    color: black;
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+.projects {
+    margin: 1em 0;
+}
+
+.active {
+    background-color: #333333;
+    color: whitesmoke;
+}
+#name1{
+    position:relative;
+}
+
+#title {
+    background-color: #C02942;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Arial, Sans-Serif;
+    color: #FFFFFF;
+    width: 200px;
+    height: 25px;
+    margin: 0.5em;
+
+}
+
+#text {
+    background-color: #0B486B;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Vivaldi, Cursive;
+    color: #FFFFFF;
+    width: 200px;
+    height: 25px;
+    margin: 0.5em;
+}
+
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+
+}
+
+h2 {
+    font-family:arial;
+}
+
+/*   form for to do list
+form {
+    display: inline-block;
+}
+*/
+
+#button{
+    display: inline-block;
+    height:20px;
+    width:70px;
+    background-color:#cc0000;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+}
+
+.list {
+    font-family:garamond;
+    color:#cc0000;
+}
+/* form for message board*/
+form {
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+}
+#messages {
+    font-size: 14px;
+    font-family: Garamond, Times, Serif;
+}
